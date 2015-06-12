@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@drawable/grey_gradient"
+>
+ 
+	<TextView
+		android:id="@+id/TextViewGroup" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginLeft="50px"
+		android:gravity="center_vertical"
+		android:textColor="#223846"
+		android:textSize="18dip"
+		android:paddingTop="5dp"
+		android:paddingBottom="5dp"
+	>
+	</TextView>
+ 
+</LinearLayout>

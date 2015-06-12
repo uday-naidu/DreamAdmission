@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_gradient"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+  
+	
+    <TextView
+        android:id="@+id/fbtv3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SOCIAL"
+        android:textColor="#142736"
+        android:textSize="40dip" />
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fbtv3" >
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    <Button
+        android:id="@+id/arcfanpage"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/titlegradient"
+        android:onClick="arcfanpage"
+        android:text="Click for ARC fan page" 
+        android:textSize="25dip"/>
+
+    <Button
+        android:id="@+id/collegefanpage"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlegradient"
+        android:onClick="collgfanpage"
+        android:text="Click for Colleges fan page" 
+        android:textSize="25dip"/>
+
+    <Button
+        android:id="@+id/feedbackfanpage"
+        style="@style/ButtonText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titlegradient"
+        android:onClick="feedback"
+        android:text="Click to Give FeedBack" 
+        android:textSize="25dip"/>
+
+    <TextView
+        android:id="@+id/fbtv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="What&apos;s This?? "
+        android:textColor="#000000"
+        android:textSize="35dip" />
+
+    <TextView
+        android:id="@+id/fbtv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Being Social is good. Post your views, suggestions for your favorite Engineering College and ARC visited. We have made Facebook fan pages for ARC and for engineering colleges of Mumbai University. Make our App good to better by giving us feedback on our Facebook feedback page."
+        android:textColor="#000000"
+        android:textSize="20dip" />
+     <TextView
+        android:id="@+id/fbtv1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="BEST OF LUCK FOR YOUR DREAM ADMISSION !!!!!!!!!!!"
+        android:textColor="#000000"
+        android:textSize="20dip" />
+    </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>

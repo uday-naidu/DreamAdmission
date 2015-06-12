@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/grey_gradient" >
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="12dip"
+                android:paddingTop="8dip"
+                android:text="DTE OFFICIAL"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dip"
+                android:textColor="#142736" />
+
+            <Button
+                android:id="@+id/webbutton"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="dteWebsite"
+                android:text="Go to DTE website" />
+            
+            <Button
+                android:id="@+id/cap1"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="cap1"
+                android:text="2012 CAP 1 cutoffs" />
+            <Button
+                android:id="@+id/cap2"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="cap2"
+                android:text="2012 CAP 2 cutoffs" />
+            <Button
+                android:id="@+id/cap2"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="cap2"
+                android:text="2012 CAP 2 cutoffs" />
+    
+
+</LinearLayout>

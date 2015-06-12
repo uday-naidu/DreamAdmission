@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/grey_gradient">
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+          <!--   <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="12dip"
+                android:paddingTop="8dip"
+                android:text="DTE OFFICIAL"
+                android:textStyle="bold"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textSize="25dip"
+                android:textColor="#142736" /> -->
+
+            <Button
+                android:id="@+id/webbutton"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#76C96A"
+                android:onClick="dteWebsite"
+                android:text="Go to DTE website" />
+            
+        <!--     <Button
+                android:id="@+id/capr1"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="capr1"
+                android:text="CAP Round-I" />
+            
+            <Button
+                android:id="@+id/mockallot"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="mockallot"
+                android:text="Check Mock Allotment" />
+            
+            <Button
+                android:id="@+id/meritlist"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="meritlist"
+                android:text="Final Merit Status" />
+
+            <Button
+                android:id="@+id/cap1"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="cap1"
+                android:text="2012 CAP 1 cutoffs" />
+            <Button
+                android:id="@+id/cap2"
+                style="@style/ButtonText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/titlegradient"
+                android:onClick="cap2"
+                android:text="2012 CAP 2 cutoffs" /> -->
+            
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="15dip"
+                android:paddingTop="12dip"
+                android:text="REGIONAL OFFICES"
+                android:textSize="22dip"
+                android:textStyle="bold"
+                android:textColor="#142736"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center" >
+
+                <Button
+                    android:id="@+id/button21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CALL" 
+                    android:onClick="call1"
+                    android:textStyle="bold"
+                 />
+
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button21"
+                    android:text="MAP"
+                    android:textStyle="bold"
+                    android:onClick="map1"
+                    />
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button11"
+                    android:text="Mumbai Region" 
+                    android:textSize="20dip"
+                    android:textColor="#000000"
+                    />
+
+            </RelativeLayout>
+
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CALL" 
+                    android:onClick="call2"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button22"
+                    android:text="MAP" 
+                    android:textStyle="bold"
+                    android:onClick="map2"
+                    />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button12"
+                    android:text="Pune Region"
+                    android:textSize="20dip" 
+                    android:textColor="#000000"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CALL" 
+                    android:onClick="call3"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/button13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button23"
+                    android:text="MAP" 
+                    android:onClick="map3"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button13"
+                    android:text="Nashik Region"
+                    android:textSize="20dip"
+                    android:textColor="#000000" />
+
+                </RelativeLayout>
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CALL"
+                    android:textStyle="bold"
+                    android:onClick="call4"
+                    />
+
+                <Button
+                    android:id="@+id/button14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button24"
+                    android:text="MAP" 
+                    android:textStyle="bold"
+                    android:onClick="map4"
+                    />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button14"
+                    android:text="Aurangabad Region"
+                    android:textSize="20dip" 
+                    android:textColor="#000000"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CALL" 
+                    android:textStyle="bold"
+                    android:onClick="call5"
+                    />
+
+                <Button
+                    android:id="@+id/button15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button25"
+                    android:text="MAP" 
+                    android:textStyle="bold"
+                    android:onClick="map5"
+                    />
+
+                <TextView
+                    android:id="@+id/textView15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button15"
+                    android:text="Amravati Region"
+                    android:textSize="20dip" 
+                    android:textColor="#000000"/>
+
+                </RelativeLayout>
+                <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/button26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CALL" 
+                    android:textStyle="bold"
+                    android:onClick="call6"
+                    />
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button26"
+                    android:text="MAP" 
+                    android:textStyle="bold"
+                    android:onClick="map6"
+                    />
+
+                <TextView
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/button16"
+                    android:text="Nagpur Region" 
+                    android:textSize="20dip"
+                    android:textColor="#000000"/>
+
+                </RelativeLayout>
+                
+                </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>

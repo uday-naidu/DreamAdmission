@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grey_gradient"
+    android:gravity="center_vertical"
+    android:orientation="vertical" >
+  
+	
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Credits"
+        android:textColor="#142736"
+        android:textSize="40dip" />
+     <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fbtv3" >
+    
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+   
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Special Thanks: "
+        android:textColor="#000000"
+        android:textSize="20dip"
+        android:paddingBottom="5dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Dr Shubha Pandit,Principal,
+K J Somaiya College of Engineering."
+        android:textColor="#000000"
+        android:textSize="15dip"
+        android:paddingBottom="10dip" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Design Architect and Consultant: "
+        android:textColor="#000000"
+        android:textSize="18dip"
+        android:paddingBottom="5dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Prof. Irfan Siddavattam"
+        android:textColor="#000000"
+        android:textSize="15dip"
+		android:paddingBottom="10dip"/>
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Functional Lead: "
+        android:textColor="#000000"
+        android:textSize="20dip" 
+        android:paddingBottom="5dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Prof. Ashwini Dalvi"
+        android:textColor="#000000"
+        android:textSize="15dip"
+        android:paddingBottom="10dip" />
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Technical Team:"
+        android:textColor="#000000"
+        android:textSize="20dip" 
+        android:paddingBottom="5dip"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mandar, Javed, Uday, Abhishek, Ninad and all other member contributed for coding."
+        android:textColor="#000000"
+        android:textSize="15dip" 
+        android:paddingBottom="10dip"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Marketing Team:"
+        android:textColor="#000000"
+        android:textSize="20dip"
+        android:paddingBottom="5dip" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Krunal, Nikhil"
+        android:textColor="#000000"
+        android:textSize="15dip" 
+        android:paddingBottom="10dip"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Email Id:"
+        android:textColor="#000000"
+        android:textSize="20dip" 
+        android:paddingBottom="5dip"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=" acceptedinfotech@gmail.com"
+        android:textColor="#000000"
+        android:textSize="15dip"
+        android:paddingBottom="10dip" />
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center"
+         android:paddingBottom="10dip"
+         android:text="DreamAdmission v1.1"
+         android:textColor="#000000"
+         android:textSize="20dip" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       	android:paddingBottom="10dip"
+        android:text="A venture of KJ Somaiya COE and &lt;accepted> infoTech"
+        android:textColor="#223846"
+        android:textSize="20dip"
+        android:textStyle="bold"  />
+    
+    
+    </LinearLayout>
+    </ScrollView>
+
+    
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="@drawable/grey_gradient">
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/TVGroup" 
+	android:text="Groupe" 
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:gravity="center_vertical"
+	android:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"  
+	android:textAppearance="?android:attr/textAppearanceLarge"
+	android:textColor="#223846" 
+	android:textSize="18dip"
+	android:paddingTop="5dp"
+	android:paddingBottom="5dp"/>
+</LinearLayout>

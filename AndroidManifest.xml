@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.dreamadmission"
+    android:versionCode="10"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    
+    
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+        <activity
+            android:name="com.dreamadmission.DreamAdmission"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+            android:name=".ARC"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".CollegeWebView"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".Updates"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".Tabs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".RegForm"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".ListColleges"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+        <activity 
+            android:name=".About"
+            android:label="@string/app_name" >
+        </activity>
+       <activity 
+            android:name=".Search"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".Explore"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".CustomTabActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".Registration"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".CheckRegistration"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".CollegeWebsites"
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="stateHidden|adjustResize">
+        </activity>
+        <activity 
+            android:name=".Social"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name=".TestexpandableActivity"
+            android:label="@string/app_name" >
+        </activity> 
+        <activity 
+            android:name=".CollgFbFanPage"
+            android:label="@string/app_name" 
+            android:windowSoftInputMode="stateHidden">
+        </activity> 
+        <activity 
+            android:name=".Dte"
+            android:label="@string/app_name" >
+        </activity> 
+        <activity 
+            android:name=".Credits"
+            android:label="@string/app_name" >
+        </activity> 
+        <activity 
+            android:name=".WebViewDis"
+            android:label="@string/app_name" >
+        </activity>
+        <activity 
+            android:name="com.dreamadmission.Sponsors"
+            android:label="@string/app_name" >
+        </activity> 
+        </application>
+
+</manifest>

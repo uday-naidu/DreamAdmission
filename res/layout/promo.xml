@@ -1,0 +1,23 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/layout_root3"
+              android:orientation="horizontal"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:padding="10dip"
+              >
+<ScrollView
+    android:id="@+id/widget543"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >              
+    
+    <TextView android:id="@+id/promotext"
+              android:layout_width="wrap_content"
+              android:layout_height="fill_parent"
+              android:textColor="#FFF"
+              />
+      
+</ScrollView>
+</LinearLayout>

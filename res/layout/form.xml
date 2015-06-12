@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    android:background="#074047"
+    android:gravity="bottom"
+    tools:context=".MainActivity" >
+    
+      <TextView
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff" />
+     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:text=" poweredby
+                &lt;accepted>infoTech"
+        android:textAppearance="?android:attr/textAppearanceMedium" 
+        android:textColor="#ffffff"/>
+
+<ScrollView
+  
+    android:id="@+id/scrollview1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/titlegradient" >
+
+<LinearLayout
+    
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="50dp"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Please Register!"
+        android:textStyle="bold"
+        android:paddingBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/etname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Name" >
+ 
+        <requestFocus /></EditText>
+
+      <!-- <EditText
+          android:id="@+id/etemail"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="Email id"
+          android:inputType="textEmailAddress" /> -->
+
+      <EditText
+          android:id="@+id/etphone"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="Phone no."
+          android:inputType="phone"/>
+      
+      <!-- <EditText
+          android:id="@+id/etcet"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:ems="10"
+          android:hint="CET Score"
+          android:inputType="number" /> -->
+
+      <Button
+          android:id="@+id/button1"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Terms and Conditions" 
+          android:layout_gravity="center"
+          android:onClick="show"/>
+
+      <CheckBox
+          android:id="@+id/checkBox1"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:onClick="reg"
+          android:gravity="center"
+          android:text="I agree to the terms and conditions."
+          android:textColor="#FFFFFF" />
+
+      <Button
+          android:id="@+id/register"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="Register"           
+          android:visibility="gone"/>
+
+</LinearLayout>
+</ScrollView>
+    
+</RelativeLayout>

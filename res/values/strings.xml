@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DreamAdmission</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string-array name="colleges_array">
+    <item>Veermata Jijabai Technological Institute - VJTI</item>
+	 <item>  Sardar Patel College of Engineering - SPCE</item>
+	 <item>  Manjara Charitable Trusts Rajiv Gandhi Institute of Technology - RGIT   </item>	
+	  <item>  Vidyalankar Institute of Technology - VIT</item>
+	   <item>   Ramrao Adik Edu Soc, Ramarao Adik Institute Of Technology - RAIT</item>
+	    <item>   Thakur College of Engineering and Technology </item>
+		 <item>  K.J.Somaiya College of Engineering, Vidyavihar - KJSCE</item>
+		  <item>   Thadomal Shahani Engineering College</item>
+		   <item>   Vivekanand Education Societys Institute of Technology - VESIT</item>
+		    <item>   Shivajirao S. Jondhale College of Engineering</item>
+			 <item>    Agnel Charities FR. C. Rodrigues Institute of Technology  </item>
+			  <item>  Konkan Gyanpeeth College of Engineering</item>
+			   <item>  Hope Foundation and research centers Finolex Academy of Management and Technology </item>
+			    <item>   St. Francis Institute of Technology  </item>19.24354 	72.85558
+				 <item>  Watumull Institute of Electronics Engineering and Computer Technology</item>
+				  <item>   Shree L.R. Tiwari College of Engineering</item>
+				   <item>Saraswati Education Society Saraswati College of Engineering</item>
+				    <item>Vidyavardhini College of Engineering and Technology</item>
+	                <item>Excelsior Education Society K.C. College of Engineering and Management Studies and Research</item>
+	
+	</string-array>
+	
+	
+    <string-array name="latitude_array">
+   <item>19.02238</item>
+	 <item>   19.12381  </item>
+	 <item>   19.12137  </item>
+	  <item>  19.02165  </item>
+	   <item> 19.04420    </item>
+	    <item> 19.20618    </item>
+		 <item>  19.07299   </item>
+		  <item>  19.06385   </item>
+		   <item> 19.04538    </item>
+		    <item>  19.44641  </item>
+			 <item>  19.07554   </item>
+			  <item>   18.91591  </item>
+			   <item>    17.011967 </item>
+			    <item>   19.24354   </item>
+				 <item>  19.00138   </item>
+				  <item> 19.30025  </item>
+				  <item >19.04009</item>
+				  <item >19.38422</item>
+				  <item >19.17976</item>
+				 
+	</string-array>
+	
+	<string-array name="longitude_array">
+    
+    <item>   72.85563 </item>
+	 <item> 	72.83609    </item>
+	 <item>   72.82380 </item>
+	  <item>  72.87072   </item>
+	   <item>    73.02546 </item>
+	    <item>  72.87464   </item>
+		 <item>   72.89973  </item>
+		  <item>  72.83564   </item>
+		   <item>   72.88886  </item>
+		    <item> 73.31592   </item>
+			 <item>   72.99179  </item>
+			  <item>   73.34313  </item>
+			   <item> 73.337357   </item>
+			    <item>   72.85558  </item>
+				 <item> 72.81309    </item>
+				  <item> 72.87612   </item>
+				  <item >73.05934</item>
+				  <item >72.82884</item>
+				  <item > 72.98029</item>
+				 
+    
+	</string-array>
+	
+	<string-array name="College_phoneno">
+   
+
+	 <item>02224198174</item>
+	 <item>02226289777</item>
+	  <item>02226707026</item>
+	   <item>02224161126</item>
+	    <item>02222709505</item>
+		 <item>02267308107</item>
+		  <item>02266449085</item>
+		   <item>02226495808</item>
+		    <item>02261532510</item>
+			 <item>2516512222</item>
+			  <item>4161100</item>
+			   <item>2148222580</item>
+			    <item>2352231477</item>
+				 <item>28928585</item>
+				  <item>24935281</item>
+				   <item>65142376</item>
+				   <item >02227743704</item>
+				   <item >02502338234</item>
+				   <item >25327100</item>
+				    
+
+	
+	</string-array>
+	
+	<string-array name="College_address">
+    
+	 <item>H.R. Mahajani Marg, Matunga, Mumbai</item>
+	 <item>   Munshi Nagar, Andheri (West), Mumbai - Suburban ,Mumbai  </item>
+	  <item>   Off. Juhu Versova Link Road, Versova, Andheri(W) Mumbai  </item>
+	   <item>  Vidyalankar Educational Campus,Vidyalankar College Marg, Wadala(E), Mumbai   </item>
+	    <item>  Dr. D.Y. Patil Vidyanagar, Sector-7, Phase-I, Nerul, Navi Mumbai   </item>
+		 <item>   Thakur Shyamnarayan Marg,Thakur Village,Kandivali(E), Mumbai  </item>
+		  <item> Vidya_Nagar, Vidya Vihar, Mumbai    </item>
+		   <item>   37th Road, Off Linking Road, (Near National), Bandra (West), Mumbai  </item>
+		    <item>   Hashu Advani Memorial Complex, Behind Collector Colony, R.C. Marg, Chembur, Mumbai  </item>
+			 <item>   Sheel Kalyan Highway, Behind Venkatesh Petrolpump, Sonarpada, Manpada Post, Dombivali (E) Thane  </item>
+			  <item>   Sector 9-A, Vashi, Navi Mumbai,  </item>
+			   <item>    Vengaon Road, Dahivali, Karjat </item>
+			    <item>  P- 60, P-60/1, MIDC, Mirjole Block, Ratnagiri   </item>
+				 <item> Mount Poinsur, S.V.P. Road, Borivali ( W ), Mumbai    </item>
+				  <item>   47, Dr. R.G. Thadani Marg, (near Venus Apartment) Worli, Mumbai  </item>
+				   <item>  Survey no. 267, Near Commisioners Bungalow,Kanakiya Park,Mira Road (E)Thane   </item>
+				   <item >Plot No 46/46 A, Sector 5 Near MSEB Sub Station Kharghar Navi Mumbai Dist. Raigad </item>
+	               <item >Vasai Road (W Rly), Tal: Vasai Dist : Thane</item>
+	               <item >Mith bunder Road, Near Sadguru Gardens, Kopri, Thane (E)</item>
+	               
+	               
+	</string-array>
+	
+	<style name="ButtonText">
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:textColor">#ffffff</item>
+    <item name="android:gravity">center</item>
+    <item name="android:layout_margin">3dp</item>
+    <item name="android:textSize">30dp</item>
+    <item name="android:textStyle">bold</item>
+    <item name="android:shadowColor">#000000</item>
+    <item name="android:shadowDx">1</item>
+    <item name="android:shadowDy">1</item>
+    <item name="android:shadowRadius">2</item>
+</style>
+	
+
+</resources>
